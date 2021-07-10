@@ -8,7 +8,7 @@ Scenario: Search page title verification
   Then User should see title is Google
 
 
-
+  @wip
   Scenario: user search title verification
     Given User is on Google on page
     When User searches for apple
