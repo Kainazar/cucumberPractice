@@ -3,6 +3,12 @@ Feature: Google Search functionality
   search page, I should be able to search whatever
   I want, and see relevant information
 
+Scenario: Search page title verification
+  Given User is on Google on page
+  Then User should see title is Google
+
+
+
   Scenario: user search title verification
     Given User is on Google on page
     When User searches for apple
